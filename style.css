@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+
 body{
   background: rgb(235,235,235);
   color: rgb(100,100,100);
@@ -7,7 +9,7 @@ body{
 }
 
 h1{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Fredericka the Great';
   color: green;
   font-weight: black;
   font-size: 50px;
@@ -22,10 +24,10 @@ h2 {
 
 h3{
   font-family: 'Playfair Display', serif;
-  color: green;
+  color: white;
   font-weight: black;
   font-size: 30px;
- }
+ }SHADOW
 
 a {
   color: purple;
@@ -39,16 +41,19 @@ a:hover {
 
 #banner{
   text-align: center;
-  background-image: url("https://unsplash.it/1300/600?random");
+  background-image: url(https://images.pexels.com/photos/315737/pexels-photo-315737.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb);
   background-size: cover;
-  padding: 150px;
+  background-position: center;
   color: white;
-  text-shadow: 1px 1px 5px black;
+  padding: 170px
 }
+
 #banner h1 {
   color: white;
-  font-size: 50px;
+  font-size: 120px;
+  text-align: center;
 }
+
 #banner p {
   color: white;
   opacity: 0.8;
@@ -56,11 +61,17 @@ a:hover {
   font-weight: lighter;
 }
 #footer{
-  padding: 30px;
-  background: rgb(30, 30, 30);
+  padding: 10px;
+  background: rgb(80, 80, 80);
   color: lightgrey;
 }
 .card{
-  padding: 50px;
+  padding: 45px;
   font-weight: lighter;
 }
+
+.btn{
+  background: #5B8C5A;
+}
+
+
