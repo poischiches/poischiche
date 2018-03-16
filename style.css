@@ -17,9 +17,9 @@ h1{
 
 h2 {
   font-family: 'Fredericka the Great';
-  color: pink;
-  font-weight: lighter;
-  font-size: 25px;
+  color: rgb(82,25,69);
+  font-weight: black;
+  font-size: 21px;
 }
 
 h3{
@@ -36,7 +36,7 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: green;
+  color: white;
 }
 
 #banner{
@@ -52,6 +52,7 @@ a:hover {
   color: white;
   font-size: 120px;
   text-align: center;
+  text-shadow: 1px 1px 1px black;
 }
 
 #banner p {
@@ -59,11 +60,28 @@ a:hover {
   opacity: 0.8;
   font-size: 30px;
   font-weight: lighter;
+  text-shadow: 1px 1px 2px black;
 }
+
+#banner h3 {
+  text-shadow: 1px 1px 1px black;
+}
+
+#banner a {
+  color: white;
+  font-weight: italic;
+  font-size: 20px;
+}
+#banner a:hover {
+  text-decoration: none;
+  color: rgb(82,25,69);
+}
+
 #footer{
-  padding: 10px;
+  padding: 5px;
   background: rgb(80, 80, 80);
   color: lightgrey;
+  font-size: 12px
 }
 .card{
   padding: 45px;
@@ -71,7 +89,20 @@ a:hover {
 }
 
 .btn{
-  background: #5B8C5A;
+  background: #749569;
+  box-shadow: 1px 1px 1px white
 }
 
+#map{
+    height: 400px;
+    width: 100%;
+ }
 
+#titremap{
+	margin : 35px;
+}
+
+#titremap h2{
+	text-align: center;
+	font-size: 40
+}

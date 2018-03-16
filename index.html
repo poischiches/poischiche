@@ -9,6 +9,14 @@
     <title>Pois Chiche</title>
   </head>
   <body>
+  	<div>
+  		<ul class="nav nav-tabs nav-justified">
+  		<li role="presentation" class="active"><a href="https://poischiches.github.io/poischiche/">Home</a></li>
+  		<li role="presentation"><a href="https://blandinelebas.typeform.com/to/wtmUZ7">Un premier pas vers des repas avec de nouveaux amis</a></li>
+  		<li role="presentation"><a href="https://blandinelebas.typeform.com/to/cPxtq9">Dis-en nous plus sur tes habitudes alimentaires</a></li>
+		</ul>
+	</div>
+
   	<div id="banner">
   		<h1>Pois Chiche</h1>
     	<h3>Veg-it ourselves !</h3>
@@ -50,6 +58,29 @@
     		</div>
     	</div>
 	</div> 	
+
+	<div id="titremap">
+	<h2>Tes copains sont par ici !</h2>
+	</div>
+
+	<div id="map"></div>
+    <script>
+      function initMap() {
+      	var commerce = {lat: 47.214028, lng: -1.555387};
+        var audencia = {lat: 47.247280, lng: -1.552943};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 11,
+          center: commerce
+        });
+        var marker = new google.maps.Marker({
+          position: audencia,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOHN0wEzkEDevX319sLE4uC4_sxebOuE0&callback=initMap">
+    </script>
 
     <div id="footer">
     <p>Pois Chiches, restaurateur de l'amitié depuis 2018</p>
