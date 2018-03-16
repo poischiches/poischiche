@@ -68,12 +68,22 @@
       function initMap() {
       	var commerce = {lat: 47.214028, lng: -1.555387};
         var audencia = {lat: 47.247280, lng: -1.552943};
+        var ensa = {lat: 47.207755, lng: -1.557302};
+        var centrale = {lat: 47.248248, lng: -1.550109};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 11,
           center: commerce
         });
         var marker = new google.maps.Marker({
           position: audencia,
+          map: map
+        });
+        var marker = new google.maps.Marker({
+          position: centrale,
+          map: map
+        });
+        var marker = new google.maps.Marker({
+          position: ensa,
           map: map
         });
       }
